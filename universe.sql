@@ -527,8 +527,6 @@ ALTER TABLE ONLY public.planet
 ALTER TABLE ONLY public.star
     ADD CONSTRAINT star_galaxy_id_fkey FOREIGN KEY (galaxy_id) REFERENCES public.galaxy(galaxy_id);
 
-
 --
 -- PostgreSQL database dump complete
 --
-
